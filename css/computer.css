@@ -1,0 +1,205 @@
+body{
+    font-family: Helvetica, Arial, sans-serif;    
+}
+.outcontainer{
+    display: block;
+    background-color: rgb(240, 242, 245);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+.logoContainer{
+    text-align: center;
+}
+.logo{
+    margin-top: -44;
+    margin-bottom: -4;
+    width: 240px;
+}
+.informationContainer{
+    display: block;
+    width: 396px;
+    height: 376px;
+    border-width: 1px ;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-bottom: 14px;
+    box-shadow: 0.15px 0.15;
+    border-width:1px ;
+    border-style: solid;
+    border-color: rgb(221, 223, 226);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+.headerBlock{
+    width: 396px;
+    line-height : 22px;
+    padding-top: 24px;
+    padding-bottom: 16px;
+    font-weight: 500 ;
+    text-align: center;
+    color: #1c1e21;
+    font-size: 18px;
+}
+.loginInformation{
+    text-align: center;
+}
+.emailContainer, .passwordContainer{
+    margin: auto;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    text-align: center;
+    width: 364px;
+    zoom: 1;
+}
+.emailInput, .passwordInput{
+    background-color: rgb(255, 255, 255);
+    border-radius:6px ;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(221, 223, 226);
+    cursor: text;
+    font-size: 17px;
+    font-stretch: 100%;
+    font-weight: 400;
+    width: 330px;
+    height: 22px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-align: start;
+    vertical-align: middle;
+}
+.emailInput::placeholder, .passwordInput::placeholder{
+    opacity: 0.8;
+}
+.emailInput:focus::placeholder, .passwordInput:focus::placeholder{
+    opacity: 0.5;
+}
+.emailInput:focus, .passwordInput:focus{
+    outline: none;
+}
+
+.connectorContainer{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-align: center;
+}
+.connector{
+    color: #fff;
+    width :364px;
+    height: 48px;
+    background-color: #1877f2;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+    justify-content: center;
+    position: relative;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: center;
+    text-align: center;
+    vertical-align:middle;
+    transition: background-color 0.2s;
+}
+.connector:hover{
+    background-color: #166fe5;
+}
+.connector:active{
+    background-color: #29487d;
+}
+.connector:focus{
+    outline: none;
+}
+.forgetContainer{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    height: 18px;
+}
+.forget{
+    width: auto;
+    height: auto;
+    color: #1877f2;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    transition: 0.2s;
+}
+.forget:hover{
+    text-decoration: underline;
+}
+.ouContainer{
+    font-size: 12px;
+    margin-bottom:10px ;
+    margin-top:10px ;
+    margin-left: 8px;
+    margin-right: 8px;
+    display: grid;
+    grid-template-columns: 1fr 0.3fr 1fr;
+    align-items: center;
+
+
+}
+.ou{
+    color: #96999e;
+    text-align: center;
+    position: relative;
+    white-space: nowrap;
+    width: 13.359px;
+    height: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.line{
+
+    vertical-align: middle;
+    height: 1px;
+    background-color: #d7dade;
+}
+.newcontainer{
+    padding-bottom:6px ;
+    padding-top:6px ;
+    text-align: center;
+    line-height: 16.08px;
+    height: 60px;
+    direction: ltr;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.new{
+    position: relative;
+    direction: ltr;
+    color: #fff;
+    text-decoration: none;
+    background-color: #42b72a;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 48px;
+    padding-right: 16px;
+    padding-left: 16px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowarp;
+    height: 48px;
+    transition: background-color 0.2s;
+}
+.new:hover{
+    background-color: #36a420;
+}
+.new:active{
+    background-color: #2b9217;
+}
